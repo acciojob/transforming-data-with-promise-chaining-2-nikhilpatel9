@@ -6,7 +6,7 @@ btn.addEventListener("click",()=>{
 	const prm= new Promise((resolve)=>{
 		let num=Number(inpt.value);
 		setTimeout(()=>{
-			num*=2;
+			
 			outpt.textContent=`Result:${num}`;
 			
 			resolve(num);
