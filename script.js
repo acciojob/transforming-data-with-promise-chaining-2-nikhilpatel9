@@ -18,14 +18,6 @@ btn.addEventListener("click",()=>{
 			num*=2;
 			outpt.textContent=`Result:${num}`;
 			resolve(num);
-		},2000);
-		});
-	}).then((num)=>{
-		return new Promise((resolve) => {
-		setTimeout(()=>{
-			num*=2;
-			outpt.textContent=`Result:${num}`;
-			resolve(num);
 		},1000);
 		});
 	}).then((num)=>{
